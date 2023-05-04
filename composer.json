@@ -1,0 +1,17 @@
+{
+    "name": "user/blog",
+    "autoload": {
+        "psr-4": {
+            "User\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saad Olamilekan",
+            "email": "saadolamilekan71@gmail.com"
+        }
+    ],
+    "require": {
+        "pusher/pusher-php-server": "^7.0"
+    }
+}
